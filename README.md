@@ -23,8 +23,8 @@ document.querySelector("input[type='submit'], button[type='submit']").click();
 ## 🚀 How to Use
 
 1. Open your faculty feedback form on Amizone.
-2. Right-click anywhere → **Inspect** → Go to the **Console** tab. Or press Ctrl + C.
-3. Paste the code and press **Enter**.
+2. Right-click anywhere → **Inspect** (F12) → Go to the **Console** tab. Or press Ctrl + C.
+3. Paste the code and press **Enter**. If it gives an error not allowing to paste, type in *allow pasting* and paste works
 4. Review the form and submit.
 
 ---
