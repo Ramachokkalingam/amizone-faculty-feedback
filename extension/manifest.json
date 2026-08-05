@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Amizone Faculty Feedback Auto-Fill",
+  "version": "1.0.0",
+  "description": "Auto-fills the Amizone faculty feedback form: Strongly Agree on ratings, Yes on the Yes/No questions, and your comment.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["https://s.amizone.net/*"],
+  "action": {
+    "default_title": "Amizone Feedback Auto-Fill",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

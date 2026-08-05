@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Amizone Feedback Auto-Fill</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <h1>Faculty Feedback Auto-Fill</h1>
+    <p class="subtitle">Strongly Agree on every rating, Yes on the Yes/No questions.</p>
+
+    <label class="field">
+      <span>Comment</span>
+      <input id="comment" type="text" maxlength="200" placeholder="na" />
+    </label>
+
+    <label class="checkbox">
+      <input id="autoSubmit" type="checkbox" />
+      <span>Submit the form after filling</span>
+    </label>
+
+    <button id="fill" type="button">Fill form</button>
+
+    <p id="status" class="status" role="status"></p>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
